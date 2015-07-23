@@ -10,6 +10,7 @@ from flask.ext.admin import expose
 
 from config import Config
 import models
+import auth
 
 app = Flask(__name__)
 app.DEBUG = True
@@ -18,6 +19,12 @@ app.config.from_object(Config)
 
 db = MongoEngine()
 db.init_app(app)
+
+
+@app.before_request
+@auth.requires_auth
+def before_request():
+    pass
 
 
 def time_format(v, c, m, p):
