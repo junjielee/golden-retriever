@@ -1,4 +1,6 @@
-# 分销系统
+# Golden retriever(金毛)——分销系统
+![image](http://pic2.aigou.com/upload/shopping/2008/05/25/65883244.jpg!snapIs)
+
 ## 1. 开发平台
 - 系统：Debian GNU/Linux 7.8 (wheezy)
 - 数据库：mongodb 2.6.7
