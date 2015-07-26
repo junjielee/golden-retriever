@@ -1,0 +1,25 @@
+{% extends "app/base.html" %}
+
+{% block title %}首页{% endblock %}
+
+{% block css %}
+{{ super() }}
+{% endblock %}
+
+{% block header %}
+<header class="ui-header ui-header-stable ui-border-b">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1>UI组件 </h1>
+    <button class="ui-btn">回首页</button>
+</header>
+{% endblock %}
+
+{% block content %}
+<section class="ui-container ui-center">
+<button class="ui-btn">app index page</button>
+</section>
+{% endblock %}
+
+{% block js %}
+{{ super() }}
+{% endblock %}
