@@ -2,7 +2,7 @@
 
 
 class Config(object):
-    SECRET_KEY = 'golden@2015'
+    SECRET_KEY = 'secret'  # need to change
     DEBUG = True
 
     MONGODB_SETTINGS = {
@@ -12,4 +12,4 @@ class Config(object):
     }
 
 ADMIN_USERNAME = 'admin'
-ADMIN_PASSWORD = 'junjielee'
+ADMIN_PASSWORD = 'password'  # need to change
