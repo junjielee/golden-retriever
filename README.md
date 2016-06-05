@@ -11,10 +11,10 @@
 
 ## 2. 功能设计
 ### * 商家版
-![商家版](http://junjielee.com/temp/商家版.png)
+![商家版](http://7sbpjh.com1.z0.glb.clouddn.com/golden_design%2Fshop.png)
 ### * 客户版
-![客户版](http://junjielee.com/temp/客户版.png)
+![客户版](http://7sbpjh.com1.z0.glb.clouddn.com/golden_design%2Fconsumer.png)
 
 
 ## 3. 数据库设计
-![models](http://junjielee.com/temp/db_model.png)
+![models](http://7sbpjh.com1.z0.glb.clouddn.com/golden_design%2Fdb_model.png)
